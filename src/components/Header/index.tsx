@@ -16,10 +16,10 @@ export const Header = () => {
       />
       <Navbar />
       <div className=" flex gap-2">
-        <Link href="" className="bg-white p-2 text-gray-400  hover:scale-105">
+        <Link href="" className=" p-2 text-white  hover:scale-105">
           <Github size={20} />{' '}
         </Link>
-        <Link href="" className="bg-white p-2 text-gray-400  hover:scale-105">
+        <Link href="" className=" p-2 text-white  hover:scale-105">
           <Linkedin size={20} />{' '}
         </Link>
       </div>

@@ -8,6 +8,7 @@ import LogoSony from '../assets/images/sony.svg'
 
 import { cardDescription } from '@/cardDescription'
 import { Card } from '@/components/Card'
+import { ButtomMore } from '@/components/ButtomMore'
 
 export default function Home() {
   const showCards = () => {
@@ -38,7 +39,8 @@ export default function Home() {
         </section>
         <section className="flex items-center justify-between">
           <Image src={LogoSony} alt="Logo da Sony Pictures" />
-          {showCards()}
+          <div className="flex gap-10">{showCards()}</div>
+          <ButtomMore />
         </section>
       </main>
     </>

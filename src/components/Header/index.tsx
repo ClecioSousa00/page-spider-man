@@ -19,14 +19,14 @@ export const Header = () => {
         <Link
           href="https://github.com/ClecioSousa00"
           target="_blank"
-          className=" p-2 text-white  hover:scale-105"
+          className=" p-2 text-white  hover:scale-105 hover:text-red-400"
         >
           <Github size={20} />{' '}
         </Link>
         <Link
           href="https://www.linkedin.com/in/cl%C3%A9cio-sousa-670632276/"
           target="_blank"
-          className=" p-2 text-white  hover:scale-105"
+          className=" p-2 text-white  hover:scale-105 hover:text-red-400"
         >
           <Linkedin size={20} />{' '}
         </Link>

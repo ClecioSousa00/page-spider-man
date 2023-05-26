@@ -6,16 +6,16 @@ export const Navbar = () => {
     <div className="flex space-x-14">
       <nav className="">
         <ul className="flex space-x-14">
-          <li>
+          <li className="hover:text-red-400">
             <Link href="#">SHOP</Link>
           </li>
-          <li>
+          <li className="hover:text-red-400">
             <Link href="#">NFTs</Link>
           </li>
-          <li>
+          <li className="hover:text-red-400">
             <Link href="#">Spider-Man: Miles Morales</Link>
           </li>
-          <li>
+          <li className="hover:text-red-400">
             <Link href="#">Into The Spider- Verse</Link>
           </li>
         </ul>
